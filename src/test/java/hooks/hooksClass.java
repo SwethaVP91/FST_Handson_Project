@@ -9,7 +9,7 @@ public class hooksClass {
 	public static WebDriver driver;
 	@Before
 	public void init() {
-		System.setProperty("webdriver.chrome.driver","C:/Webdriver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",".\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 	}
